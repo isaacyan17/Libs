@@ -1,0 +1,3 @@
+- [Cover](/)
+- [Home](/README.md)
+- [About](/past/bio.md)
