@@ -8,7 +8,12 @@
 ### 配置
 * `git config -l` 查看git配置
 
+
 ## Commands
+
+### Remote
+* `git log --oneline` 查看提交记录（一行显示）
+
 ### 提交
 * `git diff` 查看被修改的文件
 * `git add <file_path>` 把文件提交至预备提交区域
