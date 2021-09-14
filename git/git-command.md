@@ -34,4 +34,4 @@
 > 变基操作。orgin和branch1两个分支各自有多次提交，如果想把branch1上的内容提交到origin上，除了merge操作，我们还可以使用`git rebase`。它会将branch1上的commit操作暂时取消，暂存至`.git/rebase`目录下，然后将origin分支的内容更新到branch1，最后把保存的commit应用到branch1上。
 
 * `git rebase <branch_name>` 变基到<branch_name>，过程中可能会产生冲突。
-
+* `git rebase --continue` rebase修复冲突后，继续执行变基操作。
