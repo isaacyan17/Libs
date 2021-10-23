@@ -19,4 +19,4 @@
 
 ## Recipe
 
-### 鲁菜
+### [鲁菜](/recipe/lucai.md)
