@@ -19,4 +19,6 @@
 
 ## Recipe
 
-### [鲁菜](/recipe/lucai.md)
+### 鲁菜
+
+* [枣庄辣子鸡](/recipe/lucai.md)
