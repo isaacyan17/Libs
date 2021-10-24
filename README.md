@@ -4,11 +4,20 @@
 
 ---
 
+> 将日常碎片学习内容整理成文，希望小有所成。
+
+
 ## Tech
+    Technology
+
 
 ### Java
 
 ### Android
+
+#### Third
+* LeakCanary
+
 
 ### IoT
 
