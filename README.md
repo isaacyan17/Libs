@@ -16,6 +16,10 @@
 
 ### Android
 
+#### 系统
+
+* [App启动流程](https://www.yuque.com/isaac-laugu/me84ap/xh450o)
+
 #### Third
 * LeakCanary
 
