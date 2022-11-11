@@ -1,10 +1,10 @@
 # README
 
-> That's IsaacYan's Library!
+> 生活一角。
 
 ---
 
-> 将日常碎片学习内容整理成文，希望小有所成。
+> 将日常碎片学习内容整理成文，希望偶有所得，小有所成。
 
 * Old Blog [简书](https://www.jianshu.com/u/4fa76312004b) 
 
@@ -20,8 +20,7 @@
 
 * [App启动流程](https://www.yuque.com/isaac-laugu/me84ap/xh450o)
 
-#### Third
-* LeakCanary
+#### 开发杂记
 
 
 ### IoT
@@ -37,3 +36,9 @@
 ### 鲁菜
 
 * [枣庄辣子鸡](/recipe/lucai.md)
+
+## blog
+
+* [建站记录](/blog_log/blog-log.md)
+
+
