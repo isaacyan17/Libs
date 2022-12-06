@@ -18,7 +18,7 @@
 
 #### 系统
 
-* [App启动流程](https://www.yuque.com/isaac-laugu/me84ap/xh450o)
+* [App启动流程](https://www.yuque.com/isaac-laugu/qpc3mv/sux09ah6d6y9vklk)
 
 #### 开发杂记
 
