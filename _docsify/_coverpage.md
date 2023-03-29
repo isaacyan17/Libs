@@ -5,7 +5,7 @@
 
 > Get your work in,young fella.
 
-保持愉悦。生活不会带来欢愉，心中常存希望才能坚持前行。
+生活不会主动带来欢悦，心中常存希望才能坚持前行。
 
 
 [GitHub](https://github.com/docsifyjs/docsify/)
