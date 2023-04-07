@@ -20,6 +20,9 @@
 
 * [App启动流程](https://www.yuque.com/isaac-laugu/qpc3mv/sux09ah6d6y9vklk)
 
+* [biotest](/android/design-construct.md)
+
+
 #### 开发杂记
 
 
