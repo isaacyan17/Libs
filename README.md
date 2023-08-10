@@ -30,6 +30,8 @@
 
 ### Flutter 
 
+* [JsBridge在Flutter中的实践](/flutter/jsbridge-in-flutter.md) 
+
 ### Git
 * [Git命令](/git/git-command.md)
 
