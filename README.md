@@ -14,6 +14,10 @@
 
 ### Java
 
+### Gradle
+
+* [Gradle依赖树插件](/gradle/gradle-plugin.md)
+
 ### Android
 
 #### 系统
@@ -37,6 +41,8 @@
 
 
 ### Algorithm
+
+> 重温图论，闲时一乐
 
 * Dijkstra , 基于「贪心」、「广度优先搜索」、「动态规划」求一个图中一个点到其他所有点的最短路径的算法 :  [Dijkstra算法详解](https://zhuanlan.zhihu.com/p/338414118)
 
