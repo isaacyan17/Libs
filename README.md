@@ -36,6 +36,8 @@
 
 * [JsBridge在Flutter中的实践](/flutter/jsbridge-in-flutter.md) 
 
+* [在Flutter中使用Fastlane打包并上传分发平台](/flutter/fastlane-in-flutter.md) 
+
 ### Git
 * [Git命令](/git/git-command.md)
 
