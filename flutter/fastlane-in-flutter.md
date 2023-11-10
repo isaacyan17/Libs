@@ -42,7 +42,7 @@ Xcode - develop for iOS and macOS (Xcode 14.1)
 ![](../media/screenshots/16971659044709.jpg)
 
 * 3. init 成功后会在ios目录下生成`fastlane`文件夹
-* 4. 引入蒲公英的插件：在/android 目录下执行`fastlane add_plugin pgyer`
+* 4. 引入蒲公英的插件：在/ios 目录下执行`fastlane add_plugin pgyer`
 
 ## 打包发布
 
