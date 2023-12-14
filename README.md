@@ -66,6 +66,10 @@
 * [枣庄辣子鸡](/recipe/lucai.md)
 * [生炒鸡](/recipe/scj.md)
 
+### 冬日暖胃
+
+* [蘸水羊肉](/recipe/mutton.md)
+
 ## blog
 
 * [建站记录](/blog_log/blog-log.md)
