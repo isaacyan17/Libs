@@ -27,7 +27,11 @@
 * [biotest](/android/design-construct.md)
 
 
-#### 开发杂记
+### 开发杂记
+
+#### frontend
+
+* [Nextjs静态部署无法本地打开](/frontend/nextjs-static-deploy.md)
 
 
 ### IoT
