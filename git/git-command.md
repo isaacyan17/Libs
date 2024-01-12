@@ -53,3 +53,25 @@ rebase操作可以让分支树更加线性。
 * `git rebase -i  [startpoint]  [endpoint]`选出编辑区间，让操作者编辑完成合并操作   
 * `git rebase <branch_name>` 将<branch_name>上的commit变基到当前分支。过程中可能会产生冲突。
 * `git rebase --continue` rebase修复冲突后，继续执行变基操作。
+
+#### 示例
+
+```
+git rebase -i HEAD~n
+
+`git rebase -i HEAD~n` 命令的作用是交互式地重新应用提交，其中`n`是一个数字，表示要重新应用的提交的数量。这个命令允许你在重新应用提交的过程中对提交进行编辑、合并、删除等操作。这对于整理提交历史、合并多个提交以及重排提交顺序非常有用。
+
+执行上述命令后，会打开一个交互式界面，其中列出了最近n个提交的信息。
+
+比如：
+
+pick commit1 
+pick commit2
+...
+
+如果想要删除某次提交记录，直接将pick cmomitx 一行删除，保存即可。
+
+随后执行 `git push -f origin master `,这次变基删除的操作将更新到远端仓库。
+注意-f 是强制更改。可以视情况修改参数。
+
+```
