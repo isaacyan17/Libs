@@ -54,3 +54,41 @@ docker run \
 --character-set-server=utf8mb4 \
 --collation-server=utf8mb4_unicode_ci 
 ```
+
+### Spring 
+
+### 打包项目生成jar包
+
+```
+1. maven -> lifecycle-> clean
+2. maven -> lifecycle-> package
+```
+
+### dockerfile
+
+```
+FROM adoptopenjdk/openjdk11
+COPY babywhat-0.0.1-SNAPSHOT.jar bb.jar
+RUN bash -c "touch /bb.jar"
+EXPOSE 8088
+RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+RUN echo 'Asia/Shanghai' > /etc/timezone
+ENTRYPOINT ["java", "-jar","bb.jar"]
+```
+
+将dockerfile和jar包放在同一目录下
+### build dockerfile构建一个镜像
+
+```
+docker build -t [镜像名称] -f [dockerfile路径] .
+
+docker build -t appserver -f ./appservice.dockerfile .
+# -f 是找到本地路径下面的dockerfile文件。如果不是默认DockerFile.dockerfile命名的文件则必须要-f 
+```
+
+### 启动容器
+
+```
+docker run -d --name [容器名称] -p 8088:8088 [镜像名称]
+# -p 8090:8090  宿主机端口:容器内部端口
+```
