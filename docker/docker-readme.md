@@ -1,4 +1,8 @@
 ## Docker
+
+### 常用命令
+* 查看所有容器 `docker ps -a`
+
 ### nginx
 
 #### 下载镜像
@@ -38,3 +42,15 @@ docker run \
 -d nginx:latest
 ```
 
+### MySql
+
+```
+docker run \
+-p 3307:3306 \
+--name isaac_sql \
+-e TZ=Asia/Shanghai \
+-e MYSQL_ROOT_PASSWORD=[密码] \
+-d mysql \
+--character-set-server=utf8mb4 \
+--collation-server=utf8mb4_unicode_ci 
+```
