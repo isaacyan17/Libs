@@ -26,6 +26,8 @@
 
 * [biotest](/android/design-construct.md)
 
+* [YAML基本用法](/other/YAML.md)
+
 
 ### 开发杂记
 
@@ -72,6 +74,10 @@
 ### 冬日暖胃
 
 * [蘸水羊肉](/recipe/mutton.md)
+
+### 蘸料干碟
+
+* [蘸料](/recipe/zl.md)
 
 ## blog
 
