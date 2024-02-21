@@ -4,4 +4,4 @@
 
 > 能吃辣的加点小米椒，香油味道更丰富
 
-![](/media/image_zl.png)
+![](../media/image_zl.png)
