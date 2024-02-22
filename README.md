@@ -18,6 +18,8 @@
 
 * [Gradle依赖树插件](/gradle/gradle-plugin.md)
 
+* [Gradle Command](/gradle/gradle-cmd.md)
+
 ### Android
 
 #### 系统
@@ -46,6 +48,8 @@
 * [JsBridge在Flutter中的实践](/flutter/jsbridge-in-flutter.md) 
 
 * [在Flutter中使用Fastlane打包并上传分发平台](/flutter/fastlane-in-flutter.md) 
+
+* [Protobuf in Flutter](/flutter/protobuf.md)
 
 ### Git
 * [Git命令](/git/git-command.md)
