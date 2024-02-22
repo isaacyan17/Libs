@@ -22,6 +22,12 @@
 
 ### Android
 
+* [Activity Launch](/android/acitivity-launch.md)
+
+* [Rxjava](/android/rxjava.md)
+
+* [Hotfix-knowledge-patch](/android/hotfix.md)
+
 #### 系统
 
 * [App启动流程](https://www.yuque.com/isaac-laugu/qpc3mv/sux09ah6d6y9vklk)
