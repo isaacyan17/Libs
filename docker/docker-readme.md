@@ -23,6 +23,7 @@ mkdir -p /[your root]/nigx/conf.d
 docker cp nginx:/etc/nginx/nginx.conf /opt/docker/nginx/conf/nginx.conf
 docker cp nginx:/etc/nginx/conf.d /opt/docker/nginx/conf.d
 docker cp nginx:/usr/share/nginx/html /opt/docker/nginx
+docker cp nginx:/etc/ssl /home/nginx/  (ssl证书配置)
 
 4. 删除临时容器
   docker stop ngix 
@@ -33,14 +34,63 @@ docker cp nginx:/usr/share/nginx/html /opt/docker/nginx
 
 ```
 docker run \
--p 3001:80 \
+-p 80:80 \
 --name nginx \
 -v /home/nginx/conf/nginx.conf:/etc/nginx/nginx.conf \
 -v /home/nginx/conf.d:/etc/nginx/conf.d \
 -v /home/nginx/logs:/var/log/nginx \
 -v /home/nginx/html:/usr/share/nginx/html \
+-v /home/nginx/ssl:/etc/ssl \ 
 -d nginx:latest
 ```
+
+#### 修改Nginx配置
+
+```
+user  nginx;
+worker_processes  auto;
+
+error_log  /var/log/nginx/error.log notice;
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    include /etc/nginx/conf.d/*.conf;
+
+    server {
+        listen     80;
+        server_name       localhost;
+
+        location / {
+            proxy_pass  http://127.0.0.1:3030;
+        }
+    }
+}
+
+```
+
+
 
 ### MySql
 
