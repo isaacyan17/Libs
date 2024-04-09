@@ -65,6 +65,9 @@
 
 * [开发过程中遇到的问题汇总](/problem/problem-in-development.md)
 
+### AGI
+
+* [Prompt-library](/other/prompt-library.md)
 
 ### Algorithm
 
