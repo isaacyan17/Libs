@@ -53,6 +53,8 @@
 
 * [JsBridge在Flutter中的实践](/flutter/jsbridge-in-flutter.md) 
 
+* [JsBridge 在Flutter webview中的注入式实践](/flutter/jsbridge-inject-webview.md) 
+
 * [在Flutter中使用Fastlane打包并上传分发平台](/flutter/fastlane-in-flutter.md) 
 
 * [Protobuf in Flutter](/flutter/protobuf.md)
