@@ -32,3 +32,37 @@ Matching Java Virtual Machines (2):
 2. 在`gradle.properties` 中配置路径：
 
 `org.gradle.java.home=/Library/Java/JavaVirtualMachines/jdk-11.0.15.jdk/Contents/Home`
+
+## CLI 打包Flutter iOS IPA
+
+```
+flutter build ipa --export-method=enterprise
+
+///可用的命令行参数有 --export-method app-store-connect , --export-method ad-hoc、--export-method development 和 --export-method enterprise。
+
+```
+
+* *如果发现打包出来的版本没有跟随Flutter pubspec.yaml中的配置,需要在ios/Runner/Info.plist中修改`CFBundleVersion`  和 `CFBundleShortVersionString`* : 
+
+```
+old: 
+<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+
+--- 
+
+changed: 
+
+
+<dict>
+  ...
+  <key>CFBundleVersion</key>
+  <string>$(FLUTTER_BUILD_NUMBER)</string>
+  <key>CFBundleShortVersionString</key>
+  <string>$(FLUTTER_BUILD_NAME)</string>
+  ...
+</dict>
+
+```
