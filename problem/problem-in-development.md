@@ -66,3 +66,17 @@ changed:
 </dict>
 
 ```
+
+## 命令行创建Android jks 签名
+
+```
+keytool -genkey -alias yourAlias -keyalg RSA -keystore yourKey.jks -keysize 2048 -validity 1000
+
+  -genkey 生成密钥对
+  -alias 别名
+  -keyalg 密钥算法
+  -keystore 密钥库
+  -keysize 密钥大小，这里设置为 2048 位
+  -validity 有效期
+
+```
