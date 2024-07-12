@@ -67,9 +67,11 @@
 
 * [开发过程中遇到的问题汇总](/problem/problem-in-development.md)
 
-### AGI
+### AI
 
 * [Prompt-library](/other/prompt-library.md)
+
+* [语音识别模型SenseVoice在MarsCode IDE的测试](/ai/vtt-sensevoice.md)
 
 ### Algorithm
 
