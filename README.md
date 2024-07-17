@@ -30,6 +30,8 @@
 
 * [JNI-practice](/android/jni-practice.md)
 
+* [Android base](/android/android-base.md)
+
 
 #### 系统
 
