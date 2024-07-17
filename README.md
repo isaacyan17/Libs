@@ -64,6 +64,8 @@
 
 * [Protobuf in Flutter](/flutter/protobuf.md)
 
+* [Flutter Module 持续集成原生项目](/flutter/flutter-module-with-ci.md)
+
 ### Git
 * [Git命令](/git/git-command.md)
 
