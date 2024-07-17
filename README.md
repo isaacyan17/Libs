@@ -14,6 +14,8 @@
 
 ### Java
 
+* [Java base](/other/Java.md)
+
 ### Gradle
 
 * [Gradle依赖树插件](/gradle/gradle-plugin.md)
