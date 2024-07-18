@@ -70,6 +70,8 @@
 
 * [Flutter Module 持续集成原生项目](/flutter/flutter-module-with-ci.md)
 
+* [Flutter 线上环境卡顿监测实践](/flutter/flutter-freeze-detect-in-product-env.md)
+
 ### Git
 * [Git命令](/git/git-command.md)
 
