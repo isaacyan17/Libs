@@ -131,6 +131,9 @@ void _workerIsolateFun(SendPort workerSendPort)  async {
     llvm-path:
       - '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
     name: 'NativePerfFreezeMonitor'
+
+    # `llvm-path` 是c文件的编译器地址,如果使用其他IDE如Virtual Studio Code ,需要将llvm安装到本地环境, macos安装方式: `brew install llvm`
+
   ```
 
   
