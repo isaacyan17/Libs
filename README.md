@@ -86,6 +86,8 @@
 
 * [语音识别模型SenseVoice在MarsCode IDE的测试](/ai/vtt-sensevoice.md)
 
+* [Flutter离线语音识别](/ai/asr-flutter.md)
+
 ### Algorithm
 
 > 重温图论，闲时一乐
