@@ -88,6 +88,8 @@
 
 * [Flutter离线语音识别](/ai/asr-flutter.md)
 
+* [LLM Visualization](https://bbycroft.net/llm)  - LLM模型可视化剖析教学
+
 ### Algorithm
 
 > 重温图论，闲时一乐
