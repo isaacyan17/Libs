@@ -8,6 +8,9 @@
 
 * Old Blog [简书](https://www.jianshu.com/u/4fa76312004b) 
 
+
+* [Debt defines your future, and when your future is defined, hope begins to die ] -  债务定义了你的未来，当你的未来被债务定义时，希望就开始破灭。 - Kent Nerburn
+
 ## Tech
     Technology
 
