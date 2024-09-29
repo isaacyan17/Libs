@@ -75,6 +75,8 @@
 
 * [Flutter 线上环境卡顿监测实践](/flutter/flutter-freeze-detect-in-product-env.md)
 
+* [Flutter create cli](/flutter/flutter_cli.md)
+
 ### Git
 * [Git命令](/git/git-command.md)
 
