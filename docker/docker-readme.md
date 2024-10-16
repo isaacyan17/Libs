@@ -3,6 +3,16 @@
 ### 常用命令
 * 查看所有容器 `docker ps -a`
 
+* 本地下载镜像并上传至ecs
+
+  ```
+  docker run [image]
+  docker save [image] -o [/path/xxx.tar]
+  上传ecs
+  docker load -i [xxx.tar] 
+  ```
+
+
 ### nginx
 
 #### 下载镜像
